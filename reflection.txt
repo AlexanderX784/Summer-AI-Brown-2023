@@ -1,10 +1,12 @@
 Yesterday I learned about a few different types of AI, like GOFAI, deep learning, machine learning, and Connectionism (I, II, and III)
-#when adding files use: git add (filename)
-#when commiting files use: git commit 
-#when adding comments/messages: -m "(insert text here)"
-#when git push is used, it uploads everything to the internet.
-#if the file shows a white circle, that means that it was not saved.
-#to clone a repository use: git clone
+    
+Useful commands in git:
+    #when adding files use: git add (filename)
+    #when commiting files use: git commit 
+    #when adding comments/messages: -m "(insert text here)"
+    #when git push is used, it uploads everything to the internet.
+    #if the file shows a white circle, that means that it was not saved.
+    #to clone a repository use: git clone
 
 
 
