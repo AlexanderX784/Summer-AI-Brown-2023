@@ -9,6 +9,7 @@
     #if the file shows a white circle, that means that it was not saved.
     #to clone a repository use: git clone
     #To create a miniconda environment, use conda create (FILENAME) (CODE TYPE E.G. JAVA, PYTHON, ETC)
+    #In order to change where you want to put a file, use cd (FILENAME)
 
 
 
