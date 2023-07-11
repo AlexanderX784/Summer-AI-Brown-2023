@@ -8,6 +8,8 @@ Useful commands in git:
     #when git push is used, it uploads everything to the internet.
     #if the file shows a white circle, that means that it was not saved.
     #to clone a repository use: git clone
+    #To create a miniconda environment, use conda create (FILENAME) (CODE TYPE E.G. JAVA, PYTHON, ETC)
+    
 
 
 
