@@ -4,6 +4,7 @@ Yesterday I learned about a few different types of AI, like GOFAI, deep learning
 #when adding comments/messages: -m "(insert text here)"
 #when git push is used, it uploads everything to the internet.
 #if the file shows a white circle, that means that it was not saved.
+#to clone a repository use: git clone
 
 
 
