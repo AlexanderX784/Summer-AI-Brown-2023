@@ -1,7 +1,7 @@
-Yesterday I learned about a few different types of AI, like GOFAI, deep learning, machine learning, and Connectionism (I, II, and III). I also learned about perceptrons: 
-    Perceptron: y (output) = x (input) * w (weight of decision) in order to make a decision. Does this for all inputs and weights, then adds it all up (summation) - e.g. wi is paired with an xi, multiplied with each other in order to get the importance of the decision. Linear equation
+#Yesterday I learned about a few different types of AI, like GOFAI, deep learning, machine learning, and Connectionism (I, II, and III). I also learned about perceptrons: 
+    #Perceptron: y (output) = x (input) * w (weight of decision) in order to make a decision. Does this for all inputs and weights, then adds it all up (summation) - e.g. wi is paired with an xi, multiplied with each other in order to get the importance of the decision. Linear equation
     
-Useful commands in git:
+#Useful commands in git:
     #when adding files use: git add (filename)
     #when commiting files use: git commit 
     #when adding comments/messages: -m "(insert text here)"
@@ -9,7 +9,7 @@ Useful commands in git:
     #if the file shows a white circle, that means that it was not saved.
     #to clone a repository use: git clone
     #To create a miniconda environment, use conda create (FILENAME) (CODE TYPE E.G. JAVA, PYTHON, ETC)
-    
+
 
 
 
