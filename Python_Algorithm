@@ -15,7 +15,7 @@ def hrstomins_minstohrs():
     question = input ("Do you want to convert minutes or hours? ")
     if question == 'minutes':
         minutestohours()
-    if question == 'hours':
+    elif question == 'hours':
         hourstominutes()
     else:
         print ('Error')
