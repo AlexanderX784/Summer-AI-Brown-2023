@@ -1,21 +1,21 @@
 #Task 1
 def hourstominutes():
-    minutes = 60 * float(input("How many hours do you want to convert? "))
+    minutes = 60 * float(input("How many minutes do you want to convert? "))
     print (minutes)
 hourstominutes()
 #Task 2
 def hourstominutes():
-    minutes = 60 * float(input("How many hours do you want to convert? "))
+    minutes = 60 * float(input("How many minutes do you want to convert? "))
     print (minutes)
 
 def minutestohours():
-    hours = float(input("How many minutes do you want to convert? ")) / 60
+    hours = float(input("How many hours do you want to convert? ")) / 60
     print (hours)
 def hrstomins_minstohrs():
-    question = input ("Do you want to convert minutes or hours? ")
-    if question == 'minutes':
+    question = input ("Do you want to convert to minutes or hours? ")
+    if question == 'hours':
         minutestohours()
-    elif question == 'hours':
+    elif question == 'minutes':
         hourstominutes()
     else:
         print ('Error')
@@ -25,5 +25,6 @@ def lettersinword():
     word = input("What word do you want to see the length of? ")
     print(len(word))
 lettersinword()
+
 
 
