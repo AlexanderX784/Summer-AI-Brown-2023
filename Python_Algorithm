@@ -23,9 +23,9 @@ hrstomins_minstohrs()
 #Task 3
 def lettersinword():
     word = input("What word do you want to see the length of? ")
+    #extra line just in case there is more than one word
     nospace = word.replace(' ', '')
     print(len(nospace))
 lettersinword()
-
 
 
