@@ -1,0 +1,135 @@
+UML: a pictoral description of object class. for UMLs, you write the name of the object in the top and split the page into two sections.
+In the first section, you put the attributes of the object. In the second section, put the functions of the object. 
+
+Example of UML diagrams:
+object 1: student
+	age:float
+	height:float
+	weight:float
+	taken courses:list
+	email:string
+	gender:string
+	GPA:float
+
+	Think()
+	Learn()
+	Study()
+	Walk()
+	Run()
+	Drink()
+	Sleep()
+	Play_Instrument()
+	Take_Test()
+	
+	
+object 2: teachers
+	email:string
+	name:string
+	age:float
+	IQ:float
+	
+	Teach()
+	Give_Homework()
+	Give_Tests()
+	Give_Grades
+
+Class:
+class Classname:
+    def __init__(put parameters here):
+
+    def FuncName():
+
+e.g.
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def myfunc(self):
+        print("Hello my name is" + self.name)
+p1 = Person ("John", 36) calling an instance of the class
+p1.myfunc() using the instance of the class
+e.g.2 (better formatting)
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def myfunc(self):
+        print(f"Hello my name is {self.name}")
+p1 = Person ("John", 36) 
+p1.myfunc()
+
+any function will stay a linear equation as long as the highest exponent is 1
+y = 1x + 1 --> [1  1] (as a matrix)
+y = 2x + 2 --> [4  2] (another row is part of the same matrix)
+the matrix above is a 2x2 matrix.
+y = 3x + 3
+y = 4x + 4
+y = 5x + 5
+y = 6x + 6
+y = 7x + 7
+y = 8x + 8
+y = 9x + 9
+y = 10x + 10
+coefficient: 1 variable:x
+coefficient: 2 variable:x
+coefficient: 3 variable:x
+coefficient: 4 variable:x
+coefficient: 5 variable:x
+coefficient: 6 variable:x
+coefficient: 7 variable:x
+coefficient: 8 variable:x
+coefficient: 9 variable:x
+coefficient: 10 variable:x
+
+if there is only one column in a matrix, it is called a column vector, and if there is only one row, it is called a row vector
+
+[0 0 0]
+[0 0 0]
+[0 0 0]
+[0 0 0]
+[0 0 0]
+
+[0 0 0 0]
+[0 0 0 0]
+
+
+[0 0 0 0]
+
+[0]
+[0]
+[0]
+[0]
+[0]
+[0]
+
+[3 4]    [1 2]
+[5 6] +  [4 2]
+=
+[4 6]
+[9 8]
+
+matrix multiplication:
+multiply rows by columns
+
+images: made of pixels of values 0-255 corresponding with various shades of color (darker the closer it gets to 0).
+3D plane: 1 plane of a cube is a channel. 3 channels: Red, blue, and green
+all have a light intensity value
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
