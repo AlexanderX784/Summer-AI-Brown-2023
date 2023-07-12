@@ -1,0 +1,45 @@
+#Notes
+#Creating a list
+mylist = [1, 'name', 0.5, 1]
+#to remove values:
+mylist.remove("name")
+#creating a disctionary, which is an ordered collection of data in key:value pair form in curly brackets
+mydict = {1: "steve", 2: 5, 3: False}
+#getting a value corresponding with a key:
+mydict(1)
+print(mylist(1))
+myset = (1, 2, 3, 4, 5)
+print(myset)
+#Operators
+#x == 5, y == 6
+#x+y addition
+#x/y division
+#x-y subtraction
+#x**y exponent
+#math.floor(x/y) this function gives you the quotient, rounded down (or in other words, the quotient without the remainder)
+#x%y this is the mod function, which returns the remainder
+
+#Assignment operators:
+#x = 5:
+    #x+=5 = 10
+    #x-=5 = 0
+    #x*=5 = 25
+    #x/=5 = 1
+    #x%=3 = 2 #this is a mod
+    #x//= 4: 1 this is a floor
+
+x = 4
+y = 9
+#checking if x is equal to y
+x == y
+#int(False)= 0
+#checking if x is greater than y
+x > y 
+# if you put t = false, t will return false. if you put not t, this will return true.
+#is: will be true if both are true. is not: will be true if at least 1 is true
+#in: will be true if the specified value is in a specific variable (list, set, etc.). not in: will be true if the specified value is not in a sepcific variable
+#for x in range (n) will continue to perform a function for values of x from 0 to n-1
+#range(n) returns range (0, n-1). if you want a list, type in list(range(20))
+#a while loop will keep running as long as a set condition is true unless there is a "Break" line in between
+#while (x<5): print("Hi") x +=1 will give you 5 "hi"s
+#a function is a block of code made by writing def (function name)(input parameter): 
