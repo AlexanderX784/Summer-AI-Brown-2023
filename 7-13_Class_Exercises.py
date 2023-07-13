@@ -90,3 +90,4 @@ print("Names after shuffling: ", names)
 
 result_4 = r.choice(names) #access the choice(x) funcition in the random module, makes a random choice from the elements in the collection X
 print("Chosen name is: ", result_4)
+
