@@ -1,1 +1,13 @@
 Notes for Class 7/13
+Recap: OOP- a type of programming which revoles around 'objects', which have 'attributes' and 'functions' that can be drawn as a UML diagram.
+learned about    nlinear algebra and its relevance in AI
+libraries can define multiple functions and multiple variables. An example of this is numpy. You are able to import these libraries into your code after installing it in python.
+You can call on libraries after installing them. For example, if you improted the math function: 
+import math (in order to call the library to your code and allow you to use it)
+    from here, you can then use functions from that math function (e.g. math.pow(X,Y)) to find some integer x to the power of y.
+    you can also use the square root function in this case, which would be called using math.sqrt(Y)
+There are a few ways you can import libraries and their functions into python (libraries are sometimes also called modules):
+    1.import (modulename)
+    2.import (modulename) as (alternativemodulename)
+    2.from (modulename) import (functionname)
+    3.from (modulename) import (functionname) as (alternativefunctionname)
