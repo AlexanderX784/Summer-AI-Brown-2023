@@ -1,0 +1,33 @@
+class Person:
+    def __init__(self, name, age):
+        self.name = "Benedict"
+        self.age = 27
+    def myfunc(self):
+        print(f"Hello my name is {self.name}")
+p1 = Person ("hello", 50) 
+p1.myfunc()
+
+class Student:
+    def __init__(self, name, age, height, gender):
+        self.name = name
+        self.age = age
+        self.height = height
+        self.gender = gender
+    def student_profile(self):
+        print(f"Hello my name is {self.name}, my age is {self.age}, my height is {self.height}, and my gender is {self.gender}.")
+p1 = Student ("Tommy", 5, '170 cm', "male")
+p1.student_profile()
+class Teacher:
+    def __init__(self, email, course_taught, age):
+        self.email = email
+        self.c = course_taught
+        self.age = age
+    def teacher_introduction(self):
+        print(f"Hello my name is {self.email}, I teach {self.c}, and I am {self.age} years old.")
+t1 = Teacher ("jamesbrown@anemail.org", "physics", 50)
+t1.teacher_introduction()
+import numpy as np
+mat = [[3, 4], [5, 6]]
+mat = np.asarray(mat)
+print(mat.shape)
+
